@@ -1,19 +1,1 @@
-h1 {
-	color: red;
-}
 
-h1:hover {
-	color: rgb(0, 255, 0);
-}
-
-p {
-	color: blue;
-}
-
-.hobbieslink:hover {
-	color: red;
-}
-
-.contactmelink:hover {
-	color: red;
-}
