@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
@@ -9,112 +11,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-h1 {
-	color: rgb(0, 4, 255);
-}
-
-h1:hover {
-	color: rgb(0, 255, 0);
-}
-
-p {
-	color: blue;
-}
-
-.hobbieslink:hover {
-	color: red;
-}
-
-.contactmelink:hover {
-	color: red;
-}
-
 
     </style>
 </head>
 
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Alex Fernandes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+</header>
+
+
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="https://lh3.googleusercontent.com/st_UOx1TODgLd9ezF5Ss8qInb_Zx17b4wlL2Od-pVQZz6xolckpzNgYLNzmiUlZJv7ogd3l4ar9wWxy-vNFi34k6d7PEy6UMiDj5yjrg6dUeR2eEd2-d1l-xn25_Ghxkn7Glt3o8p51awt7gZMGF8Wf890_wGpU-JNr3rh1aEJYU32_djcTSCtWKDctI4kgKLX3Jg_WsV0V80C_QzUJu2wb5fJA65-OcfwZ1RuC9Doqg3zzRvokQX0U0yNgKCI1Ez-4buaP1HRfy9EG66tp6l9NZNb68APTSfvpxFrzrkhTzZnOhef3dshwCbOQRcFXbweXxDlF3wpQOIH1CJ2rFym1Cl8Pgiz7AjQO-yJSHg4sUjiMw-bVu63qMbiPut_3IZhs_Q1k1kaKKVhr43WWinxS_0jVF0_H5wJSsjlm48lvfsxL9gLmiev5GSB68lgV-aCGVvz3CpguMOq5LmURgl8aEulG8FXbnJiykmnujDp1yzQWTmJaIQTeSKJ5bOIeHlo6SoE6mFCkCIAfganJSewplxHjKvyaEIZEukKZarhRvx8bJnpZkr2GGVMVv1kO8vEHhz7SZordBjTYrzeRSpNHPLbg0YcxCdYxZKoyO8Kt9TJOvuApD3pmX_VweaItRzu3BWGA9n8A9Ikvqv12y9MmxS8Lu6s8KtWQjmeOqOLnl0MJg9rws0U0OppU=s140-no?authuser=0"
-                    alt="alex profile picture"></td>
-            <td>
-                <h1>Alex Fernandes</h1>
-                <p><em>Founder and CEO of <strong>dijacci.com</strong></em></p>
-                <p>I'm a Web Developer Student. I love traveling and photography is my passion</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-        <li>The complete iOS development</li>
-        <li>Pharmacology studies</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2010-2013</td>
-                <td>Lead at Rutgers University</td>
-            </tr>
-            <tr>
-                <td>2020</td>
-                <td>Started Coding Bootcamp at Rutgers</td>
-            </tr>
-        </tbody>
-        <tfoot></tfoot>
-    </table>
 
-    <hr>
-
-    <h3>Skils</h3>
-    <table>
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>iOS Development</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Word Press</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Microsoft Power Point</td>
-                        <td>⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>React</td>
-                        <td>⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Computing Programing</td>
-                        <td>⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>HTML and CSS</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contactme.html">Contact Me</a>
 </body>
 
 </html>
