@@ -7,25 +7,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
+
     <!--icon library for social media buttons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <style>
-        /*logo*/
-        /*  font-family: 'Bebas Neue', cursive;   */
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-        /*h1s*/
-        /*   font-family: 'Roboto Mono', monospace;    */
+
+
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        h1 {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 100;
+            color: red;
+        }
+
+        .lead {
+            color: #fff;
+            font-size: 16px;
+            text-align: justify;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .label:after {
+            content: ' ALEX FERNANDES';
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .label:hover:after {
+            content: ' A WEB DEVELOPER';
+            font-family: 'Poppins', sans-serif;
+            color: #FFB400;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #fff;
+        }
+
 
         .navbar-brand {
             font-family: 'Bebas Neue', cursive;
             font-size: 40px;
-            color: rgb(255 251 251 / 50%);
+        }
+
+        .navbar-brand:hover {
+            color: aqua;
         }
 
         .navbar-light .navbar-brand {
-            color: rgb(255 251 251 / 50%);
+            color: #fff
         }
 
         .navbar-toggler-icon {
@@ -34,43 +72,8 @@
             height: 20px;
         }
 
-        h1 {
-            font-family: 'Roboto Mono', monospace;
-            font-weight: 100;
-            color: rgb(255, 255, 255);
-        }
-
-        .btn-outline-success {
-            color: rgb(255, 255, 255);
-            border-color: rgb(253, 253, 253);
-        }
-
-        .btn-outline-success:hover {
-            color: #fff;
-            background-color: #ffffff;
-            border-color: #c7bebe;
-        }
-
-        .container {
-            background-color: black;
-
-        }
-
-        body {
-            background-color: black;
-        }
-
-        .bg-light {
-            background-color: #000000 !important;
-        }
-
         .navbar-light .navbar-nav .nav-link {
             color: rgb(255 251 251 / 50%);
-        }
-
-        .img-fluid {
-            max-width: 100%;
-            height: auto;
         }
 
         .navbar-light .navbar-toggler {
@@ -87,6 +90,34 @@
             border-radius: .25rem;
         }
 
+        .btn-outline-success {
+            color: #ffffff;
+            border-color: rgb(255, 255, 255);
+        }
+
+        .btn-outline-success:hover {
+            color: #fff;
+            background-color: #0e0d0d;
+            border-color: #c7bebe;
+        }
+
+        .container {
+            background-color: black;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .bg-light {
+            background-color: #FFB400 !important;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
         .jumbotron {
             padding: 2rem 1rem;
             margin-bottom: 2rem;
@@ -94,31 +125,35 @@
             border-radius: .3rem;
         }
 
-        .label:after {
-            content: ' ALEX FERNANDES';
-        }
-
-        .label:hover:after {
-            content: ' A WEB DEVELOPER';
-            color: yellow;
-        }
-
         .display-4 {
             color: #fff;
+            font-family: 'Poppins', sans-serif;
         }
-
-        .lead {
-            color: #fff;
-            font-size: 15px;
-            text-align: justify;
-        }
-
-        /*BUTTON ABOUT ME*/
 
         .btn-primary {
-            color: rgb(112, 112, 112);
-            background-color: #ffff00;
-            border-color: yellow;
+            color: #fff;
+            background-color: #FFB400;
+            border-color: #FFB400;
+            border: #FFB400;
+            font-size: 15px;
+            border-radius: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #313131;
+        }
+
+        .text-muted {
+            font-size: 15px;
+            margin: 20px;
+        }
+
+        .social-footer {
+            padding: 20px;
+            font-size: 30px;
+            text-decoration: none;
+            border-radius: 50%;
+            color: brown;
         }
     </style>
 
@@ -135,27 +170,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about_me.html">About me</a>
+                    <a class="nav-link" href="about_me.html">ABOUT ME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact_me.html">Contact me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portifolio.html">Portifolio</a>
+                    <a class="nav-link" href="contact_me.html">CONTACT ME</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        PORTIFOLIO
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="portifolio.html">File 01</a>
+                        <a class="dropdown-item" href="#">File 02</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">File 03</a>
                     </div>
                 </li>
             </ul>
@@ -167,10 +199,7 @@
     </nav>
 </header>
 
-
 <body>
-
-
 
     <div class="container">
         <div class="row">
@@ -205,9 +234,35 @@
 </body>
 
 <footer class="footer mt-auto py-3">
+
+
+
     <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p><span class="text-muted">© 2020 Website Designed by <a
+                                href="https://twitter.com/alexafernands">Alex
+                                Fernandes</a></span></p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="social-footer">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
     </div>
+
+
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
