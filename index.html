@@ -11,45 +11,213 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
+        /*logo*/
+        /*  font-family: 'Bebas Neue', cursive;   */
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        /*h1s*/
+        /*   font-family: 'Roboto Mono', monospace;    */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+        .navbar-brand {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 40px;
+            color: rgb(255 251 251 / 50%);
+        }
+
+        .navbar-light .navbar-brand {
+            color: rgb(255 251 251 / 50%);
+        }
+
+        .navbar-toggler-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+
+        h1 {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 100;
+            color: rgb(255, 255, 255);
+        }
+
+        .btn-outline-success {
+            color: rgb(255, 255, 255);
+            border-color: rgb(253, 253, 253);
+        }
+
+        .btn-outline-success:hover {
+            color: #fff;
+            background-color: #ffffff;
+            border-color: #c7bebe;
+        }
+
+        .container {
+            background-color: black;
+
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .bg-light {
+            background-color: #000000 !important;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: rgb(255 251 251 / 50%);
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .navbar-light .navbar-toggler {
+            color: rgb(148 146 146);
+            border-color: rgb(136 130 130);
+        }
+
+        .navbar-toggler {
+            padding: .25rem .75rem;
+            font-size: 1.25rem;
+            line-height: 1;
+            background-color: #f3efefde;
+            border: 1px solid #fffbfb;
+            border-radius: .25rem;
+        }
+
+        .jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            background-color: #000000;
+            border-radius: .3rem;
+        }
+
+        .label:after {
+            content: ' ALEX FERNANDES';
+        }
+
+        .label:hover:after {
+            content: ' A WEB DEVELOPER';
+            color: yellow;
+        }
+
+        .display-4 {
+            color: #fff;
+        }
+
+        .lead {
+            color: #fff;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        /*BUTTON ABOUT ME*/
+
+        .btn-primary {
+            color: #fff;
+            background-color: #ffff0085;
+            border-color: yellow;
+        }
     </style>
+
 </head>
 
 <header>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Alex Fernandes</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">Alex Fernandes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
+                    <a class="nav-link" href="about_me.html">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact me</a>
+                    <a class="nav-link" href="contact_me.html">Contact me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="portifolio.html">Portifolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
-
 </header>
 
 
 <body>
 
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+
+                <img src="https://lh3.googleusercontent.com/OX1L49YG6_OcehmEqDabqbEL65D46QXrlfkPcCPKIskrmX15uc_qYVmyweliFZ6uwNCVx3TY17vV3zBcGFotVNmchKVutbnpoRfuBKlsrIiAu-2qy8c2yWrAIA0Od3vYBFMULkVb1fVE-de5kcOo0m0EMRjoflvfgo574Pg13bxRQPJx6wuC7Dqsm4kypw2pIfSwxDnp8kORBm8QdHG-Hb8Dx_CouXfGtkqJnNIEYliK2EAF8W9G6WeH98uYtf5lmMLVlFmToB8xzoNSt5v8ZtvuYo7KLszUVD4TeCWrWEEhCv1rRQxqxT2guH3ntRKASyYG6itkZGbMU50X6DSaabQzmuzMnHE7g_dMayOfR_gOyr7mPh1YLE9S4aXwXYROWr07O-FCYTDPwVAwihA0DnxwWxvlo4hf9lfNPHbIwpGgEbTf5qe5HMYTGrbbE6d5EbNA4bgJ6nmkP-XTB61jS5x-vIxFULnf6nYbW9SbUv-EI2m1iw2O3EZcXi4N10n6h-Qhjw9UZQjEE9TC37FKt9RgtJDXVOJBc71cHaWv80Uz5KwKp1QNw1u6KeROkOPHcXT7GntrQmyluMudHGc8Tu_3ZJoRdQggGHSFZFCiUn3M39QSV7IWQKWU31OYP9B9r_rhwBri4yTNhUtYXykQXHPHTQWzsni8Pal5Gp3nBWVmMNEI9bNDu3SjqQM=w936-h1382-no?authuser=0"" class="
+                    img-fluid" alt="Responsive image">
+
+            </div>
+            <div class="col-md-6">
+
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <p class="lead">HI THERE !</p>
+                        <h1 class="display-4"> I'M <span class="label"></span></h1>
+                        <p class="lead">I'm a Freelance UI/UX Designer and Developer based in London, England. I strives
+                            to build immersive and beautiful web applications through carefully crafted code and
+                            user-centric design.</p>
+                        <br>
+                        <a class="btn btn-primary" href="about_me.html" role="button">MORE ABOUT ME </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
 </html>
