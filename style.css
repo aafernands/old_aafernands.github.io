@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
@@ -16,18 +16,21 @@ h1 {
 	color: #eee;
 }
 
+.col {
+    color: #eee;
+}
+
 h5 {
 	font-family: 'Syncopate', sans-serif;
 	font-weight: 100;
 	color: #eee;
 }
 
+
 .jumbotron {
-	z-index: 13;
 	position: relative;
 	display: table-cell;
-	vertical-align: middle;
-	text-align: left;
+    margin: 10px auto;
 }
 
 .jumbotron {
@@ -66,13 +69,17 @@ h5 {
 
 .navbar-light .navbar-nav .nav-link {
 	color: #fff;
-	font-size: 13px;
+    font-size: 13px;
+    
 }
 
+
 .navbar-brand {
-	font-family: 'Syncopate', sans-serif;
+	font-family: 'Saira Semi Condensed', sans-serif;
 	font-size: 30px;
-	color: #ffb400;
+    color: #ffb400;
+    display: flexbox;
+    
 }
 
 .navbar-light .navbar-brand {
@@ -92,6 +99,7 @@ h5 {
 	background: no-repeat center center;
 	background-size: 100% 100%;
 }
+
 
 .navbar-light .navbar-toggler {
 	color: rgb(148 146 146);
@@ -219,4 +227,18 @@ footer {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
 	color: #eee;
+}
+
+
+h6 {
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+}
+
+td {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+
+    color: #8b8b8a;
+
 }
