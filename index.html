@@ -41,13 +41,31 @@
         }
 
         .jumbotron {
-            position: relative;
             z-index: 13;
+            position: relative;
             display: table-cell;
             vertical-align: middle;
             text-align: left;
         }
 
+        .jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            background-color: #000000;
+            border-radius: .3rem;
+        }
+
+        .col-lg-6 {
+            margin-top: 20px;
+            text-align: center;
+            position
+        }
+
+        #col-lg-7 {
+            margin-top: 20px;
+            text-align: center;
+            position
+        }
 
         .lead {
             color: #fff;
@@ -68,21 +86,25 @@
         }
 
         .navbar-light .navbar-nav .nav-link {
-            color: #fff;
+            color: rgb(255, 255, 255);
         }
-
 
         .navbar-brand {
             font-family: 'Bebas Neue', cursive;
             font-size: 40px;
+            color: #FFB400;
         }
 
         .navbar-brand:hover {
-            color: #1f1f1f;
+            color: #c70000;
         }
 
         .navbar-light .navbar-brand {
-            color: #fff
+            color: #ffffff
+        }
+
+        .navbar-light:hover .navbar-brand {
+            color: #FFB400
         }
 
         .navbar-toggler-icon {
@@ -90,12 +112,6 @@
             width: 20px;
             height: 20px;
         }
-
-        .navbar-light .navbar-nav .nav-link {
-            color: #eee;
-        }
-
-
 
         .navbar-light .navbar-toggler {
             color: rgb(148 146 146);
@@ -124,6 +140,7 @@
 
         .container {
             background-color: black;
+            padding: 0;
         }
 
         body {
@@ -137,14 +154,6 @@
         .img-fluid {
             max-width: 100%;
             height: auto;
-        }
-
-
-        .jumbotron {
-            padding: 2rem 1rem;
-            margin-bottom: 2rem;
-            background-color: #000000;
-            border-radius: .3rem;
         }
 
         .display-4 {
@@ -214,10 +223,7 @@
             margin: 0;
         }
 
-        .col-lg-6 {
-            margin-top: 20px;
-            text-align: center;
-        }
+
 
         .footer_container {
             background-color: #1f1f1f;
@@ -241,7 +247,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about_me.html">ABOUT ME</a>
@@ -271,11 +277,9 @@
 </header>
 
 <body>
-
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-
 
                 <img src="images/C44D83E2-D149-4EC9-BBFF-F872F3CF4CBE.jpeg" class="
                     img-fluid" alt="Responsive image">
@@ -295,13 +299,9 @@
 
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
-
-
 </body>
 
 <footer class="footer mt-auto py-3">
@@ -320,11 +320,6 @@
         </div>
     </div>
 </footer>
-
-
-
-
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
