@@ -42,7 +42,10 @@
 
         .jumbotron {
             position: relative;
-            margin-top: 230px;
+            z-index: 13;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: left;
         }
 
 
@@ -75,7 +78,7 @@
         }
 
         .navbar-brand:hover {
-            color: aqua;
+            color: #1f1f1f;
         }
 
         .navbar-light .navbar-brand {
@@ -89,8 +92,10 @@
         }
 
         .navbar-light .navbar-nav .nav-link {
-            color: rgb(255 251 251 / 50%);
+            color: #eee;
         }
+
+
 
         .navbar-light .navbar-toggler {
             color: rgb(148 146 146);
@@ -130,12 +135,13 @@
         }
 
         .img-fluid {
-            max-width: 80%;
+            max-width: 100%;
             height: auto;
-margin: 10px;        }
+        }
+
 
         .jumbotron {
-            padding: 2rem 4rem 0rem 0rem;
+            padding: 2rem 1rem;
             margin-bottom: 2rem;
             background-color: #000000;
             border-radius: .3rem;
@@ -158,7 +164,7 @@ margin: 10px;        }
         }
 
         .btn-primary:hover {
-            background-color: #313131;
+            background-color: #1f1f1f;
         }
 
         .text-muted {
@@ -211,6 +217,14 @@ margin: 10px;        }
         .col-lg-6 {
             margin-top: 20px;
             text-align: center;
+        }
+
+        .footer_container {
+            background-color: #1f1f1f;
+        }
+
+        footer {
+            background-color: #1f1f1f;
         }
     </style>
 
@@ -290,11 +304,8 @@ margin: 10px;        }
 
 </body>
 
-
-
-
 <footer class="footer mt-auto py-3">
-    <div class="container">
+    <div class="footer_container">
         <div class="row">
             <div class="col-lg-6">
                 <a href="#" class="fa fa-facebook"></a>
