@@ -8,7 +8,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-/*_____________________logo_____*/
+/*_____________________navbar_____
+font-family: 'Arimo', sans-serif;
+font-family: 'Fahkwang', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fahkwang&display=swap');
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 13px;
+}
+
+
+
+
+.navbar-light .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-light:hover .navbar-brand {
+	color: #ffb400;
+}
+.navbar-brand {
+	font-family: 'Fahkwang', sans-serif;
+	font-size: 30px;
+	color: #ffb400;
+	display: flexbox;
+}
+/*_____________________navbar_____*/
 
 h1 {
 	font-family: 'Syncopate', sans-serif;
@@ -63,28 +90,6 @@ h4 {
 	font-family: 'Raleway', sans-serif;
 }
 
-/*_____________________navbar_____*/
-
-.navbar-light .navbar-nav .nav-link {
-	color: #fff;
-	font-size: 13px;
-}
-
-.navbar-brand {
-	font-family: 'Saira Semi Condensed', sans-serif;
-	font-size: 30px;
-	color: #ffb400;
-	display: flexbox;
-}
-
-.navbar-light .navbar-brand {
-	color: #ffffff;
-}
-
-.navbar-light:hover .navbar-brand {
-	color: #ffb400;
-}
-
 .btn-outline-success {
 	color: #f5eeeefa;
 	border-color: #a8a8a8;
@@ -122,7 +127,6 @@ h4 {
 .container {
 	background-color: black;
 	padding: 0;
-	margin-top: 180px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -140,7 +144,7 @@ body {
 }
 
 .img-fluid {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 
