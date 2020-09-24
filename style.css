@@ -97,7 +97,7 @@ h4 {
 }
 
 .navbar-light .navbar-toggler-icon {
-	background-image: url("/homework/Homework2_ResponsivePortifolio/aafernands.github.io/images/hamburger-menu-icon.png");
+	background-image: url("images/hamburger-menu-icon-transp.png");
 }
 .navbar-toggler {
 	padding: .25rem .75rem;
