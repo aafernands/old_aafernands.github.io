@@ -19,9 +19,6 @@ font-family: 'Fahkwang', sans-serif;
 	font-size: 13px;
 }
 
-
-
-
 .navbar-light .navbar-brand {
 	color: #ffffff;
 }
@@ -129,8 +126,13 @@ h4 {
 	padding: 0;
 }
 
-@media only screen and (max-width: 500px) {
-	.container {
+.container2 {
+	margin-top: 140px;
+	padding-top: 0px;
+}
+
+@media only screen and (max-width: 375px) {
+	.container2 {
 		margin-top: 0px;
 	}
 }
@@ -144,7 +146,7 @@ body {
 }
 
 .img-fluid {
-	max-width: 80%;
+	max-width: 100%;
 	height: auto;
 }
 
