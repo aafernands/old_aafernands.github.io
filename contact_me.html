@@ -24,17 +24,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about_me.html">ABOUT ME</a>
+                    <a class="nav-link" href="about_me.html">about me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact_me.html">CONTACT ME</a>
+                    <a class="nav-link" href="contact_me.html">contact me</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact_me.html">PORTIFOLIO</a>
+                    <a class="nav-link" href="contact_me.html">portifolio</a>
                 </li>
             </ul>
         </div>
@@ -42,8 +42,60 @@
 </header>
 
 <body>
-    <h1>test
-    </h1>
+    <div class="jumbotron jumbotron-fluid ">
+        <div class="container">
+            <h1 class="display-4">CONTACT ME</h1>
+            <p class="lead">---LEAVE YOUR MESSAGE AND I WILL GET BACK TO YOU AS SOON AS POSSIBLE.---</p>
+        </div>
+    </div>
+    <section class="mb-4">
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Spring Lake, NJ 07762, USA</p>
+                    </li>
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 1 973 836 3080</p>
+                    </li>
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>alexfernands@outlook.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 
 <footer class="footer mt-auto py-3">
