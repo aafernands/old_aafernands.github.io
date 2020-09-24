@@ -17,9 +17,13 @@
 
 
 <body>
+
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Alex Fernandes</a>
+            <a class="navbar-brand" href="index.html">ALEX </a>
+            <a class="navbar-brand" href="index.html"> FERNANDES</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +39,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact_me.html">contact me</a>
                     </li>
-    
+
                     <li class="nav-item">
                         <a class="nav-link" href="portifolio.html">portifolio</a>
                     </li>
@@ -49,54 +53,87 @@
             <p class="lead">---LEAVE YOUR MESSAGE AND I WILL GET BACK TO YOU AS SOON AS POSSIBLE.---</p>
         </div>
     </div>
-    <section class="mb-4">
+
+    <div class="container">
         <div class="row">
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Your name</label>
-                            </div>
+            <div class="col-md-6 ">
+                <div class="contact_form">
+                    <h3>Stay in Touch</h3>
+                    <form id="contact_form">
+                        <div class="formComponents">
+                            <input type="text" name="name" id="name" placeholder="Your name" required=""> <br>
+                            <input type="email" name="email" id="email" placeholder="Your email" required=""> <br>
+                            <textarea cols="30" rows="5" name="message" id="message" placeholder="Your message"
+                                required=""></textarea>
+                            <br>
+                            <button class="mt_btn_grey" id="submit-btn">SEND MESSAGE<span
+                                    class="mt_load"><span></span></span></button>
+                            <div id="msg"></div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="">Your email</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2"
-                                    class="form-control md-textarea"></textarea>
-                                <label for="message">Your message</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="text-center text-md-left">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                 </div>
-                <div class="status"></div>
+                </form>
             </div>
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p>Spring Lake, NJ 07762, USA</p>
-                    </li>
-                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p>+ 1 973 836 3080</p>
-                    </li>
-                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>alexfernands@outlook.com</p>
-                    </li>
-                </ul>
+            <div class="col-md-6 ">
+                <div class="contact_info">
+
+                    <div class="email_sec">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="location">
+                                    <i class="icon-map"></i>
+                                    <h5>Location</h5>
+                                    <p>Long Branch, NJ</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="time">
+                                    <i class="icon-alarmclock"></i>
+                                    <h5>Available Time</h5>
+                                    <p>Monday - Saturday</p>
+                                    <p>9:00am - 8:00pm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="location">
+                                    <i class="icon-phone"></i>
+                                    <div class="phone">
+                                        <h5>Phone</h5>
+                                        <p>+1 9738363080</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="email">
+                                    <i class="icon-envelope"></i>
+                                    <h5>Email</h5>
+                                    <p><a href="mailto:example@example.co">alexfernands@outlook.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
-    </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 <footer class="footer mt-auto py-3">
