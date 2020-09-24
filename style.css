@@ -85,30 +85,6 @@ h4 {
 	color: #ffb400;
 }
 
-.navbar-toggler-icon {
-	display: inline-block;
-	width: 1.3em;
-	height: 1.3em;
-	vertical-align: middle;
-	content: "";
-	background: no-repeat center center;
-	background-size: 100% 100%;
-}
-
-.navbar-light .navbar-toggler {
-	color: rgb(148 146 146);
-	border-color: rgb(136 130 130);
-}
-
-.navbar-toggler {
-	padding: .25rem .75rem;
-	font-size: 1.25rem;
-	line-height: 1;
-	background-color: #f3efef;
-	border: 1px solid #fffbfb;
-	border-radius: .25rem;
-}
-
 .btn-outline-success {
 	color: #f5eeeefa;
 	border-color: #a8a8a8;
@@ -118,6 +94,29 @@ h4 {
 	color: rgba(190, 190, 190, 0.733);
 	background-color: #ffb400;
 	border-color: #c7bebe;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("/homework/Homework2_ResponsivePortifolio/aafernands.github.io/images/hamburger-menu-icon.png");
+}
+.navbar-toggler {
+	padding: .25rem .75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: #08080800;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.navbar-toggler-icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	content: "";
+	background: no-repeat center center;
+	background-size: 100% 100%;
+	background-color: rgba(50, 240, 145, 0);
 }
 
 .container {
@@ -130,7 +129,6 @@ h4 {
 	.container {
 		margin-top: 0px;
 	}
-	
 }
 
 body {
