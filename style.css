@@ -8,6 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 
 /*_____________________navbar_____
 font-family: 'Arimo', sans-serif;
@@ -15,7 +16,10 @@ font-family: 'Fahkwang', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fahkwang&display=swap');
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
 	color: #fff;
 }
 
@@ -23,21 +27,45 @@ font-family: 'Fahkwang', sans-serif;
 	color: #fff;
 	font-size: 13px;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #B43333
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #b43333;
+}
+
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
 }
 
 .navbar-light .navbar-brand {
-	color: #B43333;
+	color: #b43333;
+}
+
+.display-5 {
+	font-family: 'Fahkwang', sans-serif;
+	color: #b43333;
+
+	margin: auto;
+}
+
+.fernandes {
+	font-family: 'Fahkwang', sans-serif;
+	font-size: 20px;
+	color: #b43333;
 }
 
 .navbar-light:hover .navbar-brand {
-	color: #B43333;
+	color: #b43333;
 }
 .navbar-brand {
 	font-family: 'Fahkwang', sans-serif;
 	font-size: 30px;
-	color: #B43333;
+	color: #b43333;
 	display: flexbox;
 }
 /*_____________________navbar_____*/
@@ -52,9 +80,6 @@ h1 {
 	color: #eee;
 }
 
-
-
-
 h5 {
 	font-family: 'Syncopate', sans-serif;
 	font-weight: 100;
@@ -66,14 +91,12 @@ h4 {
 }
 
 .container-form {
-	padding: 50px; 100px;;
+	padding: 50px;
 	margin: 50px;
 	background-color: #1f1f1f;
 	border-radius: .3rem;
 	font-family: 'Raleway', sans-serif;
 }
-
-
 
 .jumbotron {
 	padding: 2rem 1rem;
@@ -84,8 +107,8 @@ h4 {
 }
 
 .col-md-6 {
-	margin-top: 10px;
-	text-align: center;
+	margin-left: auto;
+	text-align: left;
 }
 
 /*_____________________label_____*/
@@ -98,7 +121,7 @@ h4 {
 .label:hover:after {
 	content: ' A WEB DEVELOPER';
 	font-family: 'Poppins', sans-serif;
-	color: #B43333;
+	color: #b43333;
 }
 
 .lead {
@@ -108,6 +131,10 @@ h4 {
 	font-family: 'Raleway', sans-serif;
 }
 
+.social-icons {
+	margin: auto;
+}
+
 .btn-outline-success {
 	color: #f5eeeefa;
 	border-color: #a8a8a8;
@@ -115,7 +142,7 @@ h4 {
 
 .btn-outline-success:hover {
 	color: rgba(190, 190, 190, 0.733);
-	background-color: #B43333;
+	background-color: #b43333;
 	border-color: #c7bebe;
 }
 
@@ -142,8 +169,6 @@ h4 {
 	background-color: rgba(50, 240, 145, 0);
 }
 
-
-
 .container2 {
 	margin-top: 140px;
 	padding-top: 0px;
@@ -154,8 +179,6 @@ h4 {
 		margin-top: 0px;
 	}
 }
-
-
 
 body {
 	background-color: black;
@@ -178,9 +201,9 @@ body {
 
 .btn-primary {
 	color: #fff;
-	background-color: #B43333;
-	border-color: #B43333;
-	border: #B43333;
+	background-color: #b43333;
+	border-color: #b43333;
+	border: #b43333;
 	font-size: 12px;
 	border-radius: 50px;
 	padding: 10px 25px 10px 25px;
@@ -190,13 +213,12 @@ body {
 	background-color: #1f1f1f;
 }
 
-.text-muted {
+.credits-footer {
 	font-size: 10px;
-	margin: 50px;
 	color: #eee;
-	margin-top: 0;
 	text-align: center;
 	text-decoration: none;
+	margin: auto;
 }
 
 /*_____________________social media_____*/
@@ -212,7 +234,7 @@ body {
 
 .fa:hover {
 	text-decoration: none;
-	color: #B43333;
+	color: #b43333;
 }
 
 .fa-facebook {
@@ -238,7 +260,7 @@ body {
 /*_____________________footer_____*/
 .footer_container {
 	background-color: #1f1f1f;
-	padding: 0;
+	padding: 0px;
 	margin: 0px;
 }
 
@@ -247,7 +269,6 @@ footer {
 	padding: 0px;
 	margin: 0px;
 }
-
 
 h6 {
 	font-family: 'Raleway', sans-serif;
@@ -264,41 +285,41 @@ td {
 	background-color: aquamarine;
 }
 
-
-
 /*_____________________contact form_____*/
 
 .contact_form {
 	background-color: rgb(255, 255, 255);
 
-		margin: 50px;
-		padding: 0;
-		box-shadow: 0 5px 25px 0 rgba(248, 246, 246, 0.726);
-		
-		border-radius: 5px;
-	}
+	margin: 50px;
+	padding: 0;
+	box-shadow: 0 5px 25px 0 rgba(248, 246, 246, 0.726);
 
-	@media only screen and (max-width: 375px) {
-		.contact_form {
-			margin-top: 20px;
-		}
-	}
-	
+	border-radius: 5px;
+}
 
-	
-	
-	.form {
-		outline: 1px solid #b9b9b9!important;
-		background-color: rgb(255, 255, 255);
+@media only screen and (max-width: 375px) {
+	.contact_form {
+		margin-top: 20px;
 	}
+}
 
-	.mt_btn_grey, .mt_btn_white, input[type="submit"] {
-		padding: 10px 30px;
-		border: 1px solid #212529;
-		background: #212529;
-		font-size: 16px;
-		margin-bottom: 10px;
-		display: inline-block;
-		color: #ffffff;
-	}
+.form {
+	outline: 1px solid #b9b9b9 !important;
+	background-color: rgb(255, 255, 255);
+}
 
+.mt_btn_grey,
+.mt_btn_white,
+input[type="submit"] {
+	padding: 10px 30px;
+	border: 1px solid #212529;
+	background: #212529;
+	font-size: 16px;
+	margin-bottom: 10px;
+	display: inline-block;
+	color: #ffffff;
+}
+
+.icon-alarmclock:before {
+	content: "";
+}
