@@ -10,21 +10,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 
-/*_____________________navbar_____
-font-family: 'Arimo', sans-serif;
-font-family: 'Fahkwang', sans-serif;
-*/
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fahkwang&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
+
+/*_____________________navbar_____
+font-family: 'Arimo', sans-serif;
+font-family: 'Fahkwang', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fahkwang&display=swap');
+
+
+
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-	color: #fff;
+    color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -208,27 +214,27 @@ body {
 .img-fluid {
 	max-width: 60%;
 	height: auto;
-	margin-left: 220px;
+	margin-left: 170px;
 	margin-right: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-	@media only screen and (max-width: 900px) {
-		.img-fluid {
-			max-width: 100%;
-			height: auto;
-			margin-left: 0px;
-		}
-	}
-	@media only screen and (max-width: 375px) {
-		.img-fluid {
-			max-width: 100%;
-			height: auto;
-			margin-left: 0px;
-		}
+@media only screen and (max-width: 900px) {
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+		margin-left: 0px;
 	}
 }
+@media only screen and (max-width: 375px) {
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+}
+
 .container2 {
 	margin-top: 100px;
 	padding-top: 0px;
@@ -288,12 +294,21 @@ div.container6 p {
 	background-color: #1f1f1f;
 }
 
+.col-md-6 {
+	align-items: center;
+	justify-content: center;
+	margin-top: 0px;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+
+
+}
+
 .credits-footer {
 	font-size: 10px;
 	color: #eee;
 	text-align: center;
 	text-decoration: none;
-	margin: auto;
 }
 
 /*_____________________social media_____*/
@@ -333,20 +348,15 @@ div.container6 p {
 }
 
 .container {
-	background-color: #272727;
+    background-color: #272727;
 }
 
 /*_____________________footer_____*/
-.footer_container {
-	background-color: #888888;
-	padding: 0px;
-	margin: 0px;
-}
+
 
 footer {
 	background-color: #888888;
-	padding: 0px;
-	margin: 0px;
+	
 }
 
 h6 {
