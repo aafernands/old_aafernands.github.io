@@ -14,135 +14,108 @@
 
 </head>
 
-
 <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <header>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="index.html">Alex Fernandes</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">HOME <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about_me.html">ABOUT ME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact_me.html">CONTACT</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portifolio.html">PORTIFOLIO</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </header>
+    <div class="container3">
+        <div class="container">
+            <div id="row">
+                <div class="col">
+                    <header>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="index.html">Alex Fernandes</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">HOME <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about_me.html">ABOUT ME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact_me.html">CONTACT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="portifolio.html">PORTIFOLIO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <hr>
+                    </header>
+                </div>
             </div>
         </div>
-        <hr>
-    <div class="jumbotron jumbotron-fluid ">
-        <div class="container">
-            <h1 class="display-4">CONTACT ME</h1>
-            <p class="lead">---LEAVE YOUR MESSAGE AND I WILL GET BACK TO YOU AS SOON AS POSSIBLE.---</p>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 ">
-                <div class="contact_form">
-                    <form id="contact_form">
-                        <div class="formComponents">
-                            <input type="text" name="name" id="name" placeholder="Your name" required=""> <br>
-                            <input type="email" name="email" id="email" placeholder="Your email" required=""> <br>
-                            <textarea cols="30" rows="5" name="message" id="message" placeholder="Your message"
-                                required=""></textarea>
-                            <br>
-                            <button class="mt_btn_grey" id="submit-btn">SEND MESSAGE<span
-                                    class="mt_load"><span></span></span></button>
-                            <div id="msg"></div>
-                        </div>
+
+        <div class="container">
+            <div class="jumbotron jumbotron-fluid ">
+                <div class="container">
+                    <h1 class="display-4">CONTACT <span style="color:#b43333;"> ME</span> </h1>
+                    <p class="lead"> <i> <b>LEAVE YOUR MESSAGE AND I WILL GET BACK TO YOU AS SOON AS POSSIBLE.</b></i>
+                    </p>
                 </div>
+            </div>
+            <br>
+
+            <div class="containerform">
+                <form action="/action_page.php">
+                    <label for="fname">Your Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+
+                    <label for="lname">Your Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+
+                    <label for="subject">Your name</label>
+                    <textarea id="subject" name="subject" placeholder="Your name.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
                 </form>
             </div>
-            <div class="col-md-6 ">
-                <div class="contact_info">
 
+            <div class="col-md-12 ">
+                <div class="contact_info">
                     <div class="email_sec">
                         <div class="row">
-                            <div class="col-sm-6">
-                                <div class="location">
-                                    <i class="icon-map"></i>
-                                    <h5>Location</h5>
-                                    <p>Long Branch, NJ</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="time">
-                                    <i class="icon-alarmclock"></i>
-                                    <h5>Available Time</h5>
-                                    <p>Monday - Saturday</p>
-                                    <p>9:00am - 8:00pm</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="location">
-                                    <i class="icon-phone"></i>
-                                    <div class="phone">
-                                        <h5>Phone</h5>
-                                        <p>+1 9738363080</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="email">
-                                    <i class="icon-envelope"></i>
-                                    <h5>Email</h5>
-                                    <p><a href="mailto:example@example.co">alexfernands@outlook.com</a></p>
-                                </div>
+                            <div class="col-sm">
+                                <i class="icon-alarmclock"></i>
+                                <br>
+                                <br>
+                                <h6>Available Time</h6>
+                                <p>Monday - Saturday <br> 9:00am - 8:00pm</p>
+                                <h6>Phone</h6>
+                                <p>+1 9738363080</p>
+                                <h6>Location</h6>
+                                <p>Long Branch, NJ</p>
+                                <h6>Email</h6>
+                                <p><a href="mailto:example@example.co">alexfernands@outlook.com</a></h6>
+                                    <br>
+                                    <br>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
-
-
 </body>
 
-<footer class="footer mt-auto py-3">
-    <div class="footer_container">
-        <div class="row">
-            <div class="social-icons">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-instagram"></a>
-            </div>
-            <div class="credits-footer">
-                <p><span class="credits-footer">© 2020 Website Designed by <a
-                            href="https://twitter.com/alexafernands">Alex
-                            Fernandes</a></span></p>
-            </div>
-        </div>
-    </div>
-</footer>
+</html>
+
+<div class="footer">
+    <a href="https://twitter.com/alexafernands" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/alex-fernandes-5850b535/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/aafernands/" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/aafernands/" class="fa fa-facebook"></a>
+
+    <p><span class="credits-footer">© 2020 Website Designed by <a
+                href="https://twitter.com/alexafernands">AlexFernandes</a></span></p>
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -150,7 +123,5 @@
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-
-</html>
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
