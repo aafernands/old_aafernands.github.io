@@ -6,9 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fahkwang&display=swap');
 
@@ -150,19 +150,6 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #b43333;
 }
-.navbar-collapse {
-	margin-left: 120px;
-}
-
-@media only screen and (max-width: 375px) {
-	.navbar-collapse {
-		margin-left: 0px;
-	
-	}
-.nav-link {
-	align-items: center;
-	text-align: center;
-}
 
 hr {
 	display: block;
@@ -249,4 +236,18 @@ hr {
 	margin-top: 0px;
 	border: 1px solid transparent;
 	border-radius: .25rem;
+}
+
+.navbar-collapse {
+	margin-left: 120px;
+}
+
+@media only screen and (max-width: 375px) {
+	.navbar-collapse {
+		margin-left: 0px;
+	
+	}
+.nav-link {
+	align-items: center;
+	text-align: center;
 }
