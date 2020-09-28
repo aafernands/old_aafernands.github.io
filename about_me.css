@@ -10,8 +10,6 @@ font-family: 'Raleway', sans-serif;
 **titles
 font-family: 'Poppins', sans-serif;
 
-
-
 /*_____________________nabvar_____*/
 
 .navbar-brand {
@@ -43,9 +41,15 @@ font-family: 'Poppins', sans-serif;
 	border: 1px solid transparent;
 	border-radius: .25rem;
 }
+
 .navbar-light .navbar-toggler {
 	color: rgba(0, 0, 0, .5);
 	border-color: #727679;
+}
+
+.navbar {
+	padding: 0px;
+	margin: 0px;
 }
 
 .navbar-toggler-icon {
@@ -58,6 +62,7 @@ font-family: 'Poppins', sans-serif;
 	background-size: 100% 100%;
 	background-color: #32f09100;
 }
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
@@ -69,6 +74,7 @@ font-family: 'Poppins', sans-serif;
 	color: #fff;
 	font-size: 13px;
 }
+
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #b43333;
@@ -87,7 +93,6 @@ hr {
 }
 
 /*_____________________container_section_____*/
-
 .container {
 	background-color: #272727;
 	padding-left: 7.5px;
@@ -119,11 +124,6 @@ hr {
 }
 
 .col {
-	padding: 0px;
-	margin: 0px;
-}
-
-.navbar {
 	padding: 0px;
 	margin: 0px;
 }
@@ -177,23 +177,11 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .bg-light {
 	background-color: #272727 !important;
 }
 
-.btn {
-	margin-left: 60px;
-}
-
-.btn-primary {
-	color: #fff;
-	background-color: #b43333;
-	border-color: #b43333;
-	border: #b43333;
-	font-size: 12px;
-	border-radius: 50px;
-	padding: 10px 25px 10px 25px;
-}
 .display-4 {
 	color: #fdfdfd;
 	background-color: #272727;
@@ -287,6 +275,8 @@ header {
 	margin: 0px;
 }
 
+/*_____________________buttons_____*/
+
 .btn-primary {
 	color: #fff;
 	background-color: #b43333;
@@ -297,4 +287,18 @@ header {
 	color: #fff;
 	background-color: #706e6e;
 	border-color: #706e6e;
+}
+
+.btn {
+	margin-left: 60px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #b43333;
+	border-color: #b43333;
+	border: #b43333;
+	font-size: 12px;
+	border-radius: 50px;
+	padding: 10px 25px 10px 25px;
 }

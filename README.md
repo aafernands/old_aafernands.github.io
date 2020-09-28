@@ -1,8 +1,8 @@
-# aafernands.github.io
-# homework-week2
+
+# HOMEWORK WEEK 2 
 
 ## Assignment
-Create a portifolio webpage that meets the following criteria: 
+Create a responsive portifolio webpage that meets the following criteria: 
 
 * Functional, deployed application
 
@@ -26,6 +26,17 @@ Create a portifolio webpage that meets the following criteria:
 
 Steps taken to complete this assigmnet:
 
-* Created a css file for each website page and link to bootstrap was included as well onn head of the page;
-* All links on this website works properly;
-* For this projects was used Bootstrap and Adobe Photoshop;
+* Created a css file for each website page;
+* All links/buttons on this website works properly;
+* Some of the resources used on this projectwas:
+    - Adobe Photoshop;
+    - FontAwesome (https://fontawesome.com/);
+    - Bootstrap (https://getbootstrap.com/);
+    - Placeholder (https://placeholder.com/);
+    - Google Fonts (https://fonts.google.com/);
+    - W3 Schools (https://www.w3schools.com/);
+* The final version was  pushed to homework repository (Homework2_ResponsivePortifolio/aafernands.github.io) at github;
+
+
+
+# aafernands.github.io
