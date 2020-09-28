@@ -91,7 +91,7 @@ hr {
 	padding-right: 7.5px;
 }
 
-.container3 {
+main {
 	background-color: #272727;
 }
 
@@ -199,7 +199,7 @@ body {
 }
 
 /*_____________________footer_____*/
-.footer {
+footer {
 	width: 100%;
 	background-color: #888888;
 	color: rgb(0, 0, 0);

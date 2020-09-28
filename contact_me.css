@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Lovers+Quarrel&family=Poppins:wght@600&family=Raleway:wght@300;400&display=swap');
 
 /*_____________________Fonts_____
-
 **logo
 font-family: 'Lovers Quarrel', cursive;
 font-family: 'Dynalight', cursive;
@@ -9,9 +8,6 @@ font-family: 'Dynalight', cursive;
 font-family: 'Raleway', sans-serif;
 **titles
 font-family: 'Poppins', sans-serif;
-
-
-
 /*_____________________nabvar_____*/
 
 .navbar-brand {
@@ -91,13 +87,13 @@ hr {
 }
 
 /*_____________________container_section_____*/
-.container {
+section {
 	background-color: #272727;
 	padding-left: 7.5px;
 	padding-right: 7.5px;
 }
 
-.container3 {
+main {
 	background-color: #272727;
 }
 
@@ -220,7 +216,7 @@ body {
 }
 
 /*_____________________footer_____*/
-.footer {
+footer {
 	width: 100%;
 	background-color: #888888;
 	color: rgb(0, 0, 0);
@@ -327,9 +323,3 @@ input[type=submit]:hover {
 	background-color: #45a049;
 }
 
-#wrapper {
-	width: 1000px;
-	margin: 0 auto;
-	margin-left: auto;
-	margin-right: auto;
-}

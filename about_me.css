@@ -93,13 +93,13 @@ hr {
 }
 
 /*_____________________container_section_____*/
-.container {
+section {
 	background-color: #272727;
 	padding-left: 7.5px;
 	padding-right: 7.5px;
 }
 
-.container3 {
+main {
 	background-color: #272727;
 }
 
@@ -111,16 +111,6 @@ hr {
 	font-size: 12px;
 	margin-left: 20px;
 	margin-right: 20px;
-}
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .col {
@@ -214,7 +204,7 @@ body {
 
 /*_____________________footer_____*/
 
-.footer {
+footer {
 	width: 100%;
 	background-color: #888888;
 	color: rgb(0, 0, 0);
@@ -291,6 +281,7 @@ header {
 
 .btn {
 	margin-left: 60px;
+
 }
 
 .btn-primary {
@@ -301,4 +292,6 @@ header {
 	font-size: 12px;
 	border-radius: 50px;
 	padding: 10px 25px 10px 25px;
+	align-items: center;
+
 }
