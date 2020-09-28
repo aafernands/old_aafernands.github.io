@@ -21,7 +21,6 @@ font-family: 'Poppins', sans-serif;
 	font-family: 'Lovers Quarrel', cursive;
 }
 
-
 .navbar-light .navbar-brand {
 	color: #b43333;
 }
@@ -97,9 +96,6 @@ hr {
 
 .container3 {
 	background-color: #272727;
-
-
-	
 }
 
 .row {
@@ -154,7 +150,7 @@ p {
 .col-sm {
 	margin-top: 30px;
 	margin-bottom: 40px;
-	
+
 	display: inline-block;
 	position: relative;
 	width: 100%;
@@ -175,9 +171,11 @@ h4 {
 }
 
 body {
-	background-color: rgb(255, 255, 255);
-	height: 100%;
-	
+	background-color: rgb(247, 245, 245);
+	max-width: 960px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .bg-light {
 	background-color: #272727 !important;
@@ -235,8 +233,6 @@ body {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
-
 }
 
 .fa-star {
@@ -281,7 +277,7 @@ body {
 .credits-footer {
 	font-size: 10px;
 	font-family: 'Raleway', sans-serif;
-	color: #eee;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	text-decoration: none;
 }
@@ -292,13 +288,13 @@ header {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #b43333;
-    border-color: #b43333;
+	color: #fff;
+	background-color: #b43333;
+	border-color: #b43333;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #706e6e;
-    border-color: #706e6e;
+	color: #fff;
+	background-color: #706e6e;
+	border-color: #706e6e;
 }

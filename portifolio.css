@@ -94,7 +94,6 @@ hr {
 
 .container3 {
 	background-color: #272727;
-	
 }
 
 .row {
@@ -160,15 +159,13 @@ h4 {
 
 body {
 	background-color: rgb(247, 245, 245);
-	height: 100%;
-	
+	max-width: 960px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .bg-light {
 	background-color: #272727 !important;
-}
-
-.btn {
-	margin-left: 60px;
 }
 
 .btn-primary {
@@ -203,10 +200,9 @@ body {
 .lead {
 	color: #fff;
 	font-size: 9px;
-	text-align: justify;
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -263,7 +259,7 @@ body {
 .credits-footer {
 	font-size: 10px;
 	font-family: 'Raleway', sans-serif;
-	color: #eee;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	text-decoration: none;
 }
@@ -271,4 +267,19 @@ body {
 header {
 	padding: 0;
 	margin: 0px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #b43333;
+	border-color: #b43333;
+	border-radius: 10px;
+	font-size: 12px;
+	align-items: center;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #706e6e;
+	border-color: #706e6e;
 }

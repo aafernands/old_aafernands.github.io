@@ -96,7 +96,6 @@ hr {
 
 .container3 {
 	background-color: #272727;
-	
 }
 
 .row {
@@ -173,9 +172,12 @@ h4 {
 
 body {
 	background-color: rgb(247, 245, 245);
-	height: 100%;
-
+	max-width: 960px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 .bg-light {
 	background-color: #272727 !important;
 }
@@ -207,7 +209,7 @@ body {
 .lead {
 	color: #fff;
 	font-size: 10px;
-	text-align: justify;
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	display: flex;
 	align-items: center;
@@ -267,7 +269,7 @@ body {
 .credits-footer {
 	font-size: 10px;
 	font-family: 'Raleway', sans-serif;
-	color: #eee;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	text-decoration: none;
 }
@@ -307,7 +309,7 @@ input[type=submit]:hover {
 	border-radius: 5px;
 	background-color: #ffffff;
 	padding: 40px;
-	margin: 10px;
+	margin: 40px;
 }
 
 input[type=submit] {
@@ -321,4 +323,11 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	background-color: #45a049;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
