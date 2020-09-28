@@ -63,15 +63,18 @@
             <br>
 
             <div class="containerform">
-                <form action="/action_page.php">
-                    <label for="fname">Your Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+                
 
-                    <label for="lname">Your Email</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your Email..">
 
-                    <label for="subject">Your name</label>
-                    <textarea id="subject" name="subject" placeholder="Your name.." style="height:200px"></textarea>
+                <form action=”mailto:alexfernands@outlook.com” method=”post” enctype=”text/plain”>
+                    <label for="fname">Your Name:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">
+
+                    <label for="lname">Your Email:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="">
+
+                    <label for="subject">Your message:</label>
+                    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
 
                     <input type="submit" value="Submit">
                 </form>

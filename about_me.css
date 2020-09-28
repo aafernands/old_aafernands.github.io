@@ -290,3 +290,15 @@ header {
 	padding: 0;
 	margin: 0px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #b43333;
+    border-color: #b43333;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #706e6e;
+    border-color: #706e6e;
+}

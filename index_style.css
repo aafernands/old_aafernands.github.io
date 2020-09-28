@@ -13,8 +13,6 @@ font-family: 'Poppins', sans-serif;
 
 /*_____________________nabvar_____*/
 
-
-
 .navbar-brand {
 	color: #b43333;
 	font-size: 40px;
@@ -22,13 +20,11 @@ font-family: 'Poppins', sans-serif;
 	font-family: 'Lovers Quarrel', cursive;
 }
 
-
 .navbar-light .navbar-brand {
 	color: #b43333;
 }
 .navbar-light:hover .navbar-brand {
 	color: #ffffff;
-
 }
 
 .bg-light {
@@ -154,19 +150,15 @@ hr {
 	align-items: center;
 	justify-content: center;
 	margin-top: 0px;
-
 }
 
 body {
 	background-color: #ffffff;
-	
-	
 }
 header {
 	padding: 0px;
 	margin-left: 30px;
-	margin-right: 30px;;
-
+	margin-right: 30px;
 }
 
 /*_____________________footer_____*/
@@ -223,7 +215,6 @@ header {
 
 .container3 {
 	background-color: #272727;
-
 }
 
 .navbar {
@@ -236,18 +227,16 @@ header {
 	margin: 0px;
 }
 
-
-.btn-warning {
-    color: #fcf9f9;
+.btn-primary {
+	color: #fff;
 	background-color: #b43333;
 	border-color: #b43333;
+	border-radius: 10px;
 	font-size: 12px;
 }
 
-.btn-warning:hover {
-	background-color: #a7a7a7;
-	border-color: #a7a7a7;
-	color: #fcf9f9;
-
-}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #706e6e;
+	border-color: #706e6e;
 }
