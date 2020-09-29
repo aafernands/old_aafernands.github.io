@@ -13,7 +13,7 @@ font-family: 'Poppins', sans-serif;
 .navbar-brand {
 	color: #b43333;
 	font-size: 40px;
-	margin-left: 100px;
+	margin-left: 50px;
 	font-family: 'Lovers Quarrel', cursive;
 }
 
@@ -322,4 +322,3 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: #45a049;
 }
-
