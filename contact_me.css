@@ -322,3 +322,8 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: #45a049;
 }
+
+.wrapper {
+	padding: 0px;
+	margin: 0px;
+}

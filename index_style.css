@@ -89,7 +89,6 @@ hr {
 }
 /*_____________________container_section_____*/
 
-
 .h1 {
 	font-weight: 50;
 	color: #eee;
@@ -244,7 +243,6 @@ aside {
 	}
 }
 
-
 .label:after {
 	content: ' ALEX FERNANDES';
 	font-family: 'Poppins', sans-serif;
@@ -257,8 +255,7 @@ aside {
 	color: #b43333;
 }
 
-
-
-
-
-
+.wrapper {
+	padding: 0px;
+	margin: 0px;
+}

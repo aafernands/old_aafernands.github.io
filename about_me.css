@@ -295,3 +295,8 @@ header {
 	align-items: center;
 
 }
+
+.wrapper {
+	padding: 0px;
+	margin: 0px;
+}

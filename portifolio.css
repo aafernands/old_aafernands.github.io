@@ -286,3 +286,8 @@ header {
 	border-radius: 50px;
 	padding: 10px 25px 10px 25px;
 }
+
+.wrapper {
+	padding: 0px;
+	margin: 0px;
+}
