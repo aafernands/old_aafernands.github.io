@@ -94,7 +94,7 @@ hr {
 	color: #eee;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
-	font-size: 42px;
+	font-size: 40px;
 }
 
 .hithere {
@@ -246,6 +246,7 @@ aside {
 .label:after {
 	content: ' ALEX FERNANDES';
 	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
 }
 
 .label:hover:after {
@@ -253,6 +254,8 @@ aside {
 	font-family: 'Poppins', sans-serif;
 	text-emphasis: none;
 	color: #b43333;
+	font-size: 40px;
+
 }
 
 .wrapper {
