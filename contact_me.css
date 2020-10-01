@@ -306,8 +306,8 @@ input[type=submit]:hover {
 .containerform {
 	border-radius: 5px;
 	background-color: #ffffff;
-	padding: 40px;
-	margin: 40px;
+	padding: 20px;
+	margin: 20px;
 }
 
 input[type=submit] {
