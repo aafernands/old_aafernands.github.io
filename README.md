@@ -22,6 +22,10 @@ Create a responsive portifolio webpage that meets the following criteria:
 
 * Must properly utilize Bootstrap components and grid system.
 
+
+![demo](assets/demo.gif)
+
+
 ## Summary
 
 Steps taken to complete this assigmnet:
