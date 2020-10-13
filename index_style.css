@@ -89,7 +89,7 @@ hr {
 }
 /*_____________________container_section_____*/
 
-h1 {
+.h1 {
 	font-weight: 50;
 	color: #eee;
 	color: #fff;
@@ -219,7 +219,7 @@ footer {
 	border-color: #706e6e;
 }
 
-#section {
+section {
 	background-color: #272727;
 	padding-left: 0px;
 	padding-right: 0px;
