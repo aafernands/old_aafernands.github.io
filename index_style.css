@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Lovers+Quarrel&family=Poppins:wght@600&family=Raleway:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&family=Lovers+Quarrel&family=Poppins:wght@600&family=Raleway:wght@300;400&display=swap");
 
 /*_____________________Fonts_____
 
@@ -16,7 +16,7 @@ font-family: 'Poppins', sans-serif;
 	color: #b43333;
 	font-size: 40px;
 	margin-left: 50px;
-	font-family: 'Lovers Quarrel', cursive;
+	font-family: "Lovers Quarrel", cursive;
 }
 
 .navbar-light .navbar-brand {
@@ -36,16 +36,16 @@ font-family: 'Poppins', sans-serif;
 }
 
 .navbar-toggler {
-	padding: .25rem .75rem;
+	padding: 0.25rem 0.75rem;
 	font-size: 1.25rem;
 	line-height: 1;
 	background-color: #08080800;
 	border: 1px solid transparent;
-	border-radius: .25rem;
+	border-radius: 0.25rem;
 }
 
 .navbar-light .navbar-toggler {
-	color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0, 0.5);
 	border-color: #727679;
 }
 
@@ -89,11 +89,11 @@ hr {
 }
 /*_____________________container_section_____*/
 
-.h1 {
+h1 {
 	font-weight: 50;
 	color: #eee;
 	color: #fff;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 40px;
 }
 
@@ -101,7 +101,7 @@ hr {
 	color: #fff;
 	font-size: 12px;
 	text-align: justify;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 .img-fluid {
@@ -187,7 +187,7 @@ footer {
 
 .credits-footer {
 	font-size: 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: rgb(0, 0, 0);
 	text-align: center;
 	text-decoration: none;
@@ -219,7 +219,7 @@ footer {
 	border-color: #706e6e;
 }
 
-section {
+#section {
 	background-color: #272727;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -244,14 +244,14 @@ aside {
 }
 
 .label:after {
-	content: ' ALEX FERNANDES';
-	font-family: 'Poppins', sans-serif;
+	content: " ALEX FERNANDES";
+	font-family: "Poppins", sans-serif;
 	font-size: 40px;
 }
 
 .label:hover:after {
-	content: ' A WEB DEVELOPER';
-	font-family: 'Poppins', sans-serif;
+	content: " A WEB DEVELOPER";
+	font-family: "Poppins", sans-serif;
 	text-emphasis: none;
 	color: #b43333;
 	font-size: 40px;
