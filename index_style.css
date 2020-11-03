@@ -19,6 +19,12 @@ font-family: 'Poppins', sans-serif;
 	font-family: "Lovers Quarrel", cursive;
 }
 
+@media only screen and (max-width: 900px) {
+	.navbar-brand {
+		display: none;
+	}
+}
+
 .navbar-light .navbar-brand {
 	color: #b43333;
 }
@@ -42,6 +48,7 @@ font-family: 'Poppins', sans-serif;
 	background-color: #08080800;
 	border: 1px solid transparent;
 	border-radius: 0.25rem;
+	margin-top: 10px;
 }
 
 .navbar-light .navbar-toggler {
@@ -85,7 +92,8 @@ hr {
 	border-style: inset;
 	border-width: 0.1px;
 	border-style: outset;
-	background-color: #272727;
+	border-color: #b43333;
+	background-color: #b43333;
 }
 /*_____________________container_section_____*/
 
