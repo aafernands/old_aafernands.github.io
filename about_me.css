@@ -169,7 +169,7 @@ h4 {
 }
 
 body {
-	background-color: rgb(247, 245, 245);
+	background-color: #272727 !important;
 	max-width: 960px;
 	margin: 0 auto;
 	margin-left: auto;

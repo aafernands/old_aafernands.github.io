@@ -135,10 +135,9 @@ hr {
 }
 
 body {
-	background-color: rgb(247, 245, 245);
+	background-color: #272727;
 	max-width: 960px;
 	margin: 0 auto;
-
 	height: auto;
 }
 header {
@@ -154,12 +153,9 @@ footer {
 	background-color: #888888;
 	color: rgb(0, 0, 0);
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 .fa {
-	padding: 0;
 	font-size: 20px;
 	width: 50px;
 	height: 50px;
@@ -225,13 +221,6 @@ footer {
 	background-color: #706e6e;
 	border-color: #706e6e;
 }
-
-section {
-	background-color: #272727;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 aside {
 	margin-top: 100px;
 	padding-top: 0px;
@@ -278,7 +267,6 @@ h5 {
 
 /* INTRO TEXT */
 
-
 .typerwriter-outterwrap {
 	min-height: 100%;
 	overflow: hidden;
@@ -290,12 +278,10 @@ h5 {
 @media only screen and (max-width: 500px) {
 	.typerwriter-outterwrap {
 		content: "\a";
-    white-space: pre;
-	font-size: 40px;
+		white-space: pre;
+		font-size: 40px;
 	}
 }
-
-
 
 .typewriter-wrap {
 	/* height: calc(100vh - 8em); */

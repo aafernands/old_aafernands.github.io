@@ -94,15 +94,15 @@ hr {
 }
 
 /*_____________________container_section_____*/
-.container {
+/* .container {
 	background-color: #272727;
 	padding-left: 7.5px;
 	padding-right: 7.5px;
-}
+} */
 
-main {
+/* main {
 	background-color: #272727;
-}
+} */
 
 .row {
 	align-items: center;
@@ -167,7 +167,7 @@ h4 {
 }
 
 body {
-	background-color: rgb(247, 245, 245);
+	background-color: #272727;
 	max-width: 960px;
 	margin: 0 auto;
 	margin-left: auto;
