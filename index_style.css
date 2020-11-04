@@ -286,6 +286,17 @@ h5 {
 	top: 0;
 	left: 100px;
 }
+
+@media only screen and (max-width: 500px) {
+	.typerwriter-outterwrap {
+		content: "\a";
+    white-space: pre;
+	font-size: 40px;
+	}
+}
+
+
+
 .typewriter-wrap {
 	/* height: calc(100vh - 8em); */
 	color: #b43333;
