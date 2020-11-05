@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Lovers+Quarrel&family=Poppins:wght@600&family=Raleway:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&family=Lovers+Quarrel&family=Poppins:wght@600&family=Raleway:wght@300;400&display=swap");
 
 /*_____________________Fonts_____
 
@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif;
 
 /*_____________________nabvar_____*/
 
-.navbar-brand {
+/* .navbar-brand {
 	color: #b43333;
 	font-size: 40px;
 	margin-left: 50px;
@@ -30,7 +30,7 @@ font-family: 'Poppins', sans-serif;
 }
 .navbar-light:hover .navbar-brand {
 	color: #ffffff;
-}
+} */
 
 .bg-light {
 	background-color: #272727 !important;
@@ -40,24 +40,24 @@ font-family: 'Poppins', sans-serif;
 	background-image: url("images/hamburger-menu-icon-transp.png");
 }
 .navbar-toggler {
-	padding: .25rem .75rem;
+	padding: 0.25rem 0.75rem;
 	font-size: 1.25rem;
 	line-height: 1;
 	background-color: #08080800;
 	border: 1px solid transparent;
-	border-radius: .25rem;
+	border-radius: 0.25rem;
 	margin-top: 10px;
 }
 
 .navbar-light .navbar-toggler {
-	color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0, 0.5);
 	border-color: #727679;
 }
 
-.navbar {
+/* .navbar {
 	padding: 0px;
 	margin: 0px;
-}
+} */
 
 .navbar-toggler-icon {
 	display: inline-block;
@@ -101,11 +101,11 @@ hr {
 }
 
 /*_____________________container_section_____*/
-section {
+/* section {
 	background-color: #272727;
 	padding-left: 7.5px;
 	padding-right: 7.5px;
-}
+} */
 
 main {
 	background-color: #272727;
@@ -115,7 +115,7 @@ main {
 	align-items: center;
 	text-align: center;
 	border: 1px solid rgba(245, 239, 239, 0.5);
-	border-radius: .25rem;
+	border-radius: 0.25rem;
 	font-size: 12px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -129,7 +129,7 @@ main {
 td,
 th,
 tr {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-align: left;
@@ -141,7 +141,7 @@ table {
 }
 
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 }
@@ -155,7 +155,7 @@ p {
 }
 
 h4 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 20px;
 	color: #ffffff;
 	margin-left: 70px;
@@ -172,8 +172,6 @@ body {
 	background-color: #272727 !important;
 	max-width: 960px;
 	margin: 0 auto;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .bg-light {
@@ -183,7 +181,7 @@ body {
 .display-4 {
 	color: #fdfdfd;
 	background-color: #272727;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 42px;
 	display: flex;
 	align-items: center;
@@ -192,7 +190,7 @@ body {
 
 .jumbotron {
 	background-color: #272727;
-	border-radius: .3rem;
+	border-radius: 0.3rem;
 	padding: 0px;
 }
 
@@ -204,7 +202,7 @@ body {
 	color: #fff;
 	font-size: 9px;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -262,7 +260,7 @@ footer {
 }
 .credits-footer {
 	font-size: 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: rgb(0, 0, 0);
 	text-align: center;
 	text-decoration: none;
@@ -302,7 +300,7 @@ header {
 	align-items: center;
 }
 
-.wrapper {
+/* .wrapper {
 	padding: 0px;
 	margin: 0px;
-}
+} */

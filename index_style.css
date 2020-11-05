@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif;
 
 
 /*_____________________nabvar_____*/
-.navbar-brand {
+/* .navbar-brand {
 	color: #b43333;
 	font-size: 40px;
 	margin-left: 50px;
@@ -31,7 +31,7 @@ font-family: 'Poppins', sans-serif;
 
 .navbar-light:hover .navbar-brand {
 	color: #ffffff;
-}
+} */
 
 .bg-light {
 	background-color: #272727 !important;
@@ -132,14 +132,15 @@ hr {
 	align-items: center;
 	justify-content: center;
 	width: 550px;
+	background-color: lawngreen;
 }
 
 body {
-	background-color: #272727;
+	background-color: #272727 !important;
 	max-width: 960px;
 	margin: 0 auto;
-	height: auto;
 }
+
 header {
 	padding: 0px;
 	margin-left: 30px;
@@ -196,15 +197,15 @@ footer {
 	text-decoration: none;
 }
 
-.navbar {
+/* .navbar {
 	padding: 0px;
 	margin: 0px;
-}
+} */
 
-.col {
+/* .col {
 	padding: 0px;
 	margin: 0px;
-}
+} */
 
 /*_____________________buttons_____*/
 
@@ -253,10 +254,10 @@ aside {
 	font-size: 40px;
 }
 
-.wrapper {
+/* .wrapper {
 	padding: 0px;
 	margin: 0px;
-}
+} */
 
 h5 {
 	font-family: "Raleway", sans-serif;

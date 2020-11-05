@@ -10,7 +10,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Poppins', sans-serif;
 /*_____________________nabvar_____*/
 
-.navbar-brand {
+/* .navbar-brand {
 	color: #b43333;
 	font-size: 40px;
 	margin-left: 50px;
@@ -27,7 +27,7 @@ font-family: 'Poppins', sans-serif;
 }
 .navbar-light:hover .navbar-brand {
 	color: #ffffff;
-}
+} */
 
 .bg-light {
 	background-color: #272727 !important;
@@ -80,6 +80,11 @@ font-family: 'Poppins', sans-serif;
 	color: #b43333;
 }
 
+/* .navbar {
+	padding: 0px;
+	margin: 0px;
+} */
+
 hr {
 	display: block;
 	margin-top: 0.5em;
@@ -94,11 +99,11 @@ hr {
 }
 
 /*_____________________container_section_____*/
-section {
+/* section {
 	background-color: #272727;
 	padding-left: 7.5px;
 	padding-right: 7.5px;
-}
+} */
 
 main {
 	background-color: #272727;
@@ -120,7 +125,7 @@ main {
 	padding-bottom: 40px;
 }
 
-.container,
+/* .container,
 .container-fluid,
 .container-lg,
 .container-md,
@@ -129,17 +134,12 @@ main {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-}
+} */
 
-.col {
+/* .col {
 	padding: 0px;
 	margin: 0px;
-}
-
-.navbar {
-	padding: 0px;
-	margin: 0px;
-}
+} */
 
 td,
 th {
@@ -180,7 +180,6 @@ body {
 	background-color: #272727 !important;
 	max-width: 960px;
 	margin: 0 auto;
-	
 }
 
 .bg-light {
@@ -329,7 +328,7 @@ input[type="submit"]:hover {
 	background-color: #45a049;
 }
 
-.wrapper {
+/* .wrapper {
 	padding: 0px;
 	margin: 0px;
-}
+} */
