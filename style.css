@@ -11,14 +11,6 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Poppins', sans-serif;
  */
 
-.row {
-	align-items: center;
-	text-align: center;
-	border-radius: 0.25rem;
-	font-size: 12px;
-
-}
-
 /* hr {
 	border-color: #b43333;
 } */
@@ -26,11 +18,13 @@ font-family: 'Poppins', sans-serif;
 #box {
 	align-items: center;
 	text-align: center;
-	border: 1px solid rgba(245, 239, 239, 0.5);
-	border-radius: 0.25rem;
+	border-radius: 0rem;
 	font-size: 12px;
-	margin-left: 20px;
-	margin-right: 20px;
+	padding: 20px;
+	background-color: #000000e8;
+	margin-top: 5px;
+	border-left: 20px;
+	border-right: 20px;
 }
 
 /*_____________________navbar_____*/
@@ -96,10 +90,15 @@ tr {
 	padding: 10px;
 }
 
+p {
+	color: #ffffff;
+	align-items: center;
+	text-align: center;
+	size: 10px;
+}
 .h1 {
 	font-weight: 50;
-	color: #eee;
-	color: #fff;
+	color: rgb(255, 0, 0);
 	font-family: "Poppins", sans-serif;
 	font-size: 40px;
 }
@@ -107,7 +106,7 @@ tr {
 h4 {
 	font-family: "Raleway", sans-serif;
 	font-size: 20px;
-	color: #ffffff;
+	color: #fff2f2;
 	margin-left: 70px;
 }
 
@@ -115,21 +114,21 @@ h5 {
 	font-family: "Raleway", sans-serif;
 	font-size: 12px;
 	padding-bottom: 10px;
-	color: #eee;
+	color: #ffffff;
 }
 
 h6 {
 	font-family: "Raleway", sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	color: #ffffff;
 	text-align: center;
 }
-.col-sm {
-	margin-top: 20px;
-	margin-bottom: 20px;
+i {
+	color: rgb(255, 255, 255);
 }
 
 #contactStyle {
+	align-items: center;
 	margin-top: 30px;
 	margin-bottom: 40px;
 	color: gray;
@@ -139,7 +138,7 @@ h6 {
 }
 
 .hithere {
-	color: #fff;
+	color: #ffffff;
 	font-size: 12px;
 	text-align: justify;
 	font-family: "Raleway", sans-serif;
@@ -166,11 +165,12 @@ h6 {
 	width: 550px;
 	background-color: #272727 !important;
 }
+
 body {
-	background-color: #272727 !important;
+	background-color: #272727;
 	max-width: 960px;
 	margin: 0 auto;
-	overflow-y:scroll
+	overflow-y: scroll;
 }
 
 /*_____________________footer_____*/
@@ -181,12 +181,6 @@ footer {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-
-.fa-star {
-	color: yellow;
-	color: white;
-	margin: 0;
 }
 
 .fa {
@@ -393,8 +387,7 @@ table {
 }
 
 .display-4 {
-	color: #fdfdfd;
-	background-color: #272727;
+	color: #ffffff;
 	font-family: "Poppins", sans-serif;
 	font-size: 42px;
 	display: flex;
@@ -403,7 +396,6 @@ table {
 }
 
 .jumbotron {
-	background-color: #272727;
 	border-radius: 0.3rem;
 	padding: 0px;
 }
@@ -433,7 +425,7 @@ textarea {
 	border-radius: 4px;
 	box-sizing: border-box;
 	margin-top: 6px;
-	margin-bottom: 16px;
+
 	resize: vertical;
 }
 
@@ -450,11 +442,16 @@ input[type="submit"]:hover {
 	background-color: #45a049;
 }
 
-.container{
+.container {
 	border-radius: 5px;
-	background-color: #0000003a;
+	background-color: #000000ab;
 	padding: 40px;
-	
+}
+
+#formContainer {
+	border-radius: 5px;
+	background-color: #000000ab;
+	padding: 20px;
 }
 
 input[type="submit"] {
@@ -471,3 +468,25 @@ input[type="submit"]:hover {
 }
 
 /*  DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE  */
+.progressBoxText {
+	position: relative;
+	float: left;
+	color: #fff;
+	padding: 8px;
+	z-index: 99999;
+}
+.progress {
+	min-height: 36px;
+	overflow: hidden;
+	position: relative;
+}
+
+.progress .determinate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #b43333;
+	-webkit-transition: width 0.3s linear;
+	transition: width 0.3s linear;
+}
