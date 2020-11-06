@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Alex Fernandes Portifolio</title>
-        <link rel="stylesheet" href="style.css">
-    
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Fernandes Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
 
 <body>
     <div id="row">
@@ -25,7 +25,7 @@
             <nav>
                 <div class="nav-wrapper navbar-fixed black lighten-1">
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        
+
                     <ul class="left hide-on-med-and-down">
                         <li><a href="index.html">HOME </a></li>
                         <li><a href="about_me.html">ABOUT ME</a></li>
@@ -50,15 +50,35 @@
         </p>
     </div>
     <br>
-    <div class="containerform">
-        <form enctype="text/plain" method="GET" action="mailto:alexfernands@outlook.com">
-            <label for="fname">Your Name:</label>
-            <input type="text" id="fname" name="firstname" placeholder="">
-            <label for="lname">Your Email:</label>
-            <input type="text" id="lname" name="lastname" placeholder="">
-            <label for="subject">Your message:</label>
-            <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
-            <input type="submit" value="Submit">
+    <div class="container">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Last Name</label>
+                </div>
+            </div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Your Email: </label>
+            </div>
+            <br>
+            <br>
+            <div class="input-field col s12">
+                <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+            </div>
         </form>
     </div>
     <div class="col-md-12 ">

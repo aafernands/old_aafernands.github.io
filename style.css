@@ -450,11 +450,11 @@ input[type="submit"]:hover {
 	background-color: #45a049;
 }
 
-.containerform {
+.container{
 	border-radius: 5px;
-	background-color: #ffffff;
-	padding: 20px;
-	margin: 20px;
+	background-color: #0000003a;
+	padding: 40px;
+	
 }
 
 input[type="submit"] {

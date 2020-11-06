@@ -31,4 +31,8 @@ $(() => {
 		$(".sidenav").sidenav();
 		// create dropdown
 	});
+
+	$(document).ready(function () {
+		$(".materialbox").materialbox();
+	});
 });
