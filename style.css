@@ -22,9 +22,8 @@ font-family: 'Poppins', sans-serif;
 	font-size: 12px;
 	padding: 20px;
 	background-color: #000000e8;
-	margin-top: 5px;
-	border-left: 20px;
-	border-right: 20px;
+	margin: 5px 20px 0px 20px;
+	
 }
 
 /*_____________________navbar_____*/
@@ -167,7 +166,7 @@ i {
 }
 
 body {
-	background-color: #272727;
+	background-color: #161616;
 	max-width: 960px;
 	margin: 0 auto;
 	overflow-y: scroll;
@@ -442,10 +441,9 @@ input[type="submit"]:hover {
 	background-color: #45a049;
 }
 
-.container {
-	border-radius: 5px;
+.wrapper {
 	background-color: #000000ab;
-	padding: 40px;
+	
 }
 
 #formContainer {
@@ -476,7 +474,7 @@ input[type="submit"]:hover {
 	z-index: 99999;
 }
 .progress {
-	min-height: 36px;
+	min-height: 25px;
 	overflow: hidden;
 	position: relative;
 }
