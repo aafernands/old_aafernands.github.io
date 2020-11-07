@@ -23,7 +23,6 @@ font-family: 'Poppins', sans-serif;
 	padding: 20px;
 	background-color: #000000e8;
 	margin: 5px 20px 0px 20px;
-	
 }
 
 /*_____________________navbar_____*/
@@ -97,9 +96,17 @@ p {
 }
 .h1 {
 	font-weight: 50;
-	color: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
 	font-family: "Poppins", sans-serif;
 	font-size: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+	.h1 {
+		position: relative;
+		z-index: auto;
+		top: -40px;
+	}
 }
 
 h4 {
@@ -144,11 +151,9 @@ i {
 }
 
 .img-fluid {
-	max-width: 80%;
+	max-width: 75%;
 	height: auto;
-	margin-left: 70px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	margin: 20px;
 }
 @media only screen and (max-width: 900px) {
 	.img-fluid {
@@ -288,9 +293,11 @@ aside {
 .typerwriter-outterwrap {
 	min-height: 100%;
 	overflow: hidden;
-	position: absolute;
 	top: 0;
 	left: 100px;
+	position: relative;
+	z-index: auto;
+	left: -0px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -298,6 +305,10 @@ aside {
 		content: "\a";
 		white-space: pre;
 		font-size: 40px;
+		position: absolute;
+		z-index: auto;
+		left: 25px;
+		top: -120px;
 	}
 }
 
@@ -376,9 +387,7 @@ aside {
 	padding: 0px;
 	margin: 0px;
 	color: #eee;
-	padding-left: 0px;
-	margin-top: 0px;
-	align-items: center;
+	text-align: center;
 }
 
 table {
@@ -437,13 +446,17 @@ input[type="submit"] {
 	cursor: pointer;
 }
 
+#animation-2 {
+	color: #b43333;
+	text-align: left;
+}
+
 input[type="submit"]:hover {
 	background-color: #45a049;
 }
 
 .wrapper {
 	background-color: #000000ab;
-	
 }
 
 #formContainer {
