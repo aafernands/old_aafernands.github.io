@@ -21,8 +21,9 @@ font-family: 'Poppins', sans-serif;
 	border-radius: 0rem;
 	font-size: 12px;
 	padding: 20px;
-	background-color: #000000e8;
+	background-color: #313131be;
 	margin: 5px 20px 0px 20px;
+	box-shadow: 2.5px 5px 4px #000000;
 }
 
 /*_____________________navbar_____*/
@@ -99,6 +100,7 @@ p {
 	color: rgb(255, 255, 255);
 	font-family: "Poppins", sans-serif;
 	font-size: 40px;
+	text-align: left;
 }
 
 @media only screen and (max-width: 900px) {
@@ -113,7 +115,6 @@ h4 {
 	font-family: "Raleway", sans-serif;
 	font-size: 20px;
 	color: #fff2f2;
-	margin-left: 70px;
 }
 
 h5 {
@@ -129,8 +130,10 @@ h6 {
 	color: #ffffff;
 	text-align: center;
 }
+
 i {
 	color: rgb(255, 255, 255);
+	font-size: 12px;
 }
 
 #contactStyle {
@@ -171,7 +174,7 @@ i {
 }
 
 body {
-	background-color: #161616;
+	background-color: #ffffff;
 	max-width: 960px;
 	margin: 0 auto;
 	overflow-y: scroll;
@@ -183,17 +186,18 @@ footer {
 	background-color: #888888;
 	color: rgb(0, 0, 0);
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .fa {
 	padding: 0;
 	font-size: 20px;
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	text-align: center;
 	text-decoration: none;
+	margin: 0px;
 }
 
 .fa:hover {
@@ -201,7 +205,7 @@ footer {
 	color: #b43333;
 }
 
-.fa-facebook {
+.fa-github {
 	color: white;
 	margin: 0;
 }
@@ -227,6 +231,8 @@ footer {
 	color: rgb(0, 0, 0);
 	text-align: center;
 	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 /*_____________________buttons_____*/
@@ -237,6 +243,7 @@ footer {
 	border-color: #b43333;
 	border-radius: 20px;
 	font-size: 12px;
+	margin-left: 20px;
 }
 
 .btn-primary:hover {
@@ -344,13 +351,13 @@ aside {
 /*Animation*/
 
 .anim-typewriter1 {
-	animation: typewriter1 3s steps(40) 1s 1 normal both,
-		blinkTextcursor 500ms steps(40) infinite normal;
+	animation: typewriter1 2s steps(480) 1s 1 normal both,
+		blinkTextcursor 500ms steps(480) infinite normal;
 }
 
 .anim-typewriter2 {
-	animation: typewriter2 3s steps(40) 1s 1 normal both,
-		blinkTextcursor 500ms steps(40) infinite normal;
+	animation: typewriter2 2s steps(180) 1s 1 normal both,
+		blinkTextcursor 500ms steps(180) infinite normal;
 }
 
 @keyframes typewriter1 {
@@ -456,7 +463,7 @@ input[type="submit"]:hover {
 }
 
 .wrapper {
-	background-color: #000000ab;
+	background-color: #000000ea;
 }
 
 #formContainer {
@@ -487,9 +494,8 @@ input[type="submit"]:hover {
 	z-index: 99999;
 }
 .progress {
-	min-height: 25px;
+	min-height: 30px;
 	overflow: hidden;
-	position: relative;
 }
 
 .progress .determinate {
