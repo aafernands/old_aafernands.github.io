@@ -25,6 +25,7 @@ $(() => {
 	$(".dropdown-trigger").dropdown({
 		hover: true,
 	});
+
 	$(document).ready(function () {
 		// create mobile menu
 
@@ -36,12 +37,15 @@ $(() => {
 		$(".materialbox").materialbox();
 	});
 
-	$(document).ready(function () {
-		$(".carousel").carousel();
-	});
+	$(function () {
+		$(".projects").on("click", ".project", function () {
+			console.log("click");
+			console.log(this);
+			// clear active state
+			$(".project.active").removeClass("active");
 
-	$('.carousel.carousel-slider').carousel({
-		fullWidth: true,
-		indicators: true
-	  });
+			// add active state
+			$(this).addClass("active");
+		});
+	});
 });

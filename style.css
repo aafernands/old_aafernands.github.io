@@ -320,7 +320,6 @@ aside {
 
 .typewriter-wrap {
 	color: #b43333;
-	
 }
 
 .typewriter-line {
@@ -505,4 +504,83 @@ input[type="submit"]:hover {
 	background-color: #b43333;
 	-webkit-transition: width 0.3s linear;
 	transition: width 0.3s linear;
+}
+
+.black {
+	background-color: #b43333 !important;
+}
+
+a {
+	color: #ffffff !important;
+}
+
+.sidenav {
+	background-color: #151515 !important;
+	color: #eee;
+}
+/*  STYLE PORTIFOLIO ANIMATION */
+
+.projects {
+	display: flex;
+	
+}
+
+.project {
+	flex-grow: 1;
+
+	height: 100px;
+
+	opacity: 0.5;
+	flex-wrap: wrap;
+}
+
+.project.active {
+	flex-grow: 1;
+	padding: 200px;
+}
+
+.p1 {
+	background-color: rgb(255, 0, 0);
+	height: 400px;
+	-webkit-transition:1s;
+
+}
+.p1:hover {
+	background-color: rgba(255, 0, 0, 0.425);
+	height: 400px;
+}
+
+.p2 {
+	background-color: rgb(250, 225, 3);
+	height: 400px;
+	-webkit-transition:1s;
+
+}
+.p2:hover {
+	background-color: rgba(195, 0, 255, 0.425);
+	height: 400px;
+}
+
+.p3 {
+	background-color: rgb(255, 255, 255);
+	height: 400px;
+	-webkit-transition:1s;
+
+}
+
+.p3:hover {
+	background-color: rgba(8, 3, 247, 0.425);
+	height: 400px;
+}
+
+.p4 {
+	background-color: rgb(4, 250, 99);
+	height: 400px;
+	-webkit-transition:1s;
+
+}
+
+.p4:hover {
+	background-color: rgba(252, 252, 250, 0.425);
+	height: 400px;
 }
