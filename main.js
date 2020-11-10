@@ -1,6 +1,7 @@
-$(() => {
+function init() {
 	$animation1 = $("#animation-1");
 	$animation2 = $("#animation-2");
+	$learnMoreBtn = $("#learBtn");
 
 	$animation1.on("animationend", () => {
 		let c = 1;
@@ -39,13 +40,26 @@ $(() => {
 
 	$(function () {
 		$(".projects").on("click", ".project", function () {
-			console.log("click");
-			console.log(this);
 			// clear active state
 			$(".project.active").removeClass("active");
 
 			// add active state
 			$(this).addClass("active");
+			$(".btn").hide();
 		});
 	});
-});
+
+
+
+
+
+	
+
+	function attachEvent() {
+		// $(".btn").hide();
+		// $(".active").show();
+		// $(".titlePortfolio").show();
+	}
+	attachEvent();
+}
+$(init);

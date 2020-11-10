@@ -522,65 +522,70 @@ a {
 
 .projects {
 	display: flex;
-	
+	-webkit-transition: 0.5s;
 }
 
 .project {
-	flex-grow: 1;
+	flex-grow: 20;
 
 	height: 100px;
 
 	opacity: 0.5;
+
 	flex-wrap: wrap;
+
+	background-color: rgb(255, 0, 0);
 }
 
 .project.active {
-	flex-grow: 1;
-	padding: 200px;
+	height: 400px;
+	width: 600px;
+	background-color: rgb(179, 255, 0);
 }
 
 .p1 {
-	background-color: rgb(255, 0, 0);
+	-webkit-transition: 0.5s;
 	height: 400px;
-	-webkit-transition:1s;
-
+	width: 100px;
+	margin-right: 2px;
 }
+
 .p1:hover {
-	background-color: rgba(255, 0, 0, 0.425);
 	height: 400px;
 }
 
 .p2 {
-	background-color: rgb(250, 225, 3);
 	height: 400px;
-	-webkit-transition:1s;
-
+	width: 100px;
+	-webkit-transition: 0.5s;
+	margin-right: 2px;
 }
+
 .p2:hover {
-	background-color: rgba(195, 0, 255, 0.425);
 	height: 400px;
 }
 
 .p3 {
-	background-color: rgb(255, 255, 255);
 	height: 400px;
-	-webkit-transition:1s;
-
+	width: 100px;
+	-webkit-transition: 0.5s;
+	margin-right: 2px;
 }
 
 .p3:hover {
-	background-color: rgba(8, 3, 247, 0.425);
 	height: 400px;
 }
 
 .p4 {
-	background-color: rgb(4, 250, 99);
 	height: 400px;
-	-webkit-transition:1s;
-
+	width: 100px;
+	-webkit-transition: 0.5s;
+	margin-right: 2px;
 }
 
 .p4:hover {
-	background-color: rgba(252, 252, 250, 0.425);
 	height: 400px;
+}
+
+.titlePortfolio {
 }
