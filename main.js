@@ -38,6 +38,12 @@ function init() {
 		$(".materialbox").materialbox();
 	});
 
+
+
+
+
+
+
 	$(function () {
 		$(".projects").on("click", ".project", function () {
 			// clear active state
@@ -54,7 +60,6 @@ function init() {
 
 
 	
-
 	function attachEvent() {
 		// $(".btn").hide();
 		// $(".active").show();

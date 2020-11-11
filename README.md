@@ -1,46 +1,59 @@
+# ALEX FERNANDES PORTIFOLIO
 
-# HOMEWORK WEEK 2 
+[User Github Link](https://github.com/aafernands)
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Assignment
-Create a responsive portifolio webpage that meets the following criteria: 
 
-* Functional, deployed application
+Create a responsive portifolio webpage that meets the following criteria:
 
-* GitHub repository with README describing the project
+- Functional, deployed application
 
-* Navbar must be consistent on each page.
+- GitHub repository with README describing the project
 
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+- Navbar must be consistent on each page.
 
-* All links must work.
+- Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-* Must use semantic html.
+- All links must work.
 
-* Each page must have valid and correct HTML. (use a validation service)
+- Must use semantic html.
 
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+- Each page must have valid and correct HTML. (use a validation service)
 
-* Must properly utilize Bootstrap components and grid system.
+- Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
+- Must properly utilize Bootstrap components and grid system.
+
+  | Table of Contents        |
+  | ------------------------ |
+  | [Assignment](#Assigment) |
+  | [Summary](#Summary)      |
+  | [License](#License)      |
 
 ![demo](assets/demo.gif)
-
 
 ## Summary
 
 Steps taken to complete this assigmnet:
 
-* Created a css file for each website page;
-* All links/buttons on this website works properly;
-* Some of the resources used on this projectwas:
-    - Adobe Photoshop;
-    - FontAwesome (https://fontawesome.com/);
-    - Bootstrap (https://getbootstrap.com/);
-    - Placeholder (https://placeholder.com/);
-    - Google Fonts (https://fonts.google.com/);
-    - W3 Schools (https://www.w3schools.com/);
-* The final version was  pushed to homework repository (Homework2_ResponsivePortifolio/aafernands.github.io) at github;
+- Created a css file for each website page;
+- All links/buttons on this website works properly;
+- Some of the resources used on this projectwas:
 
+  [FontAwesome](https://fontawesome.com/)<br />
+  [Bootstrap](https://getbootstrap.com/)<br />
+  [Placeholder](https://placeholder.com/)<br />
+  [Google Fonts](https://fonts.google.com/)<br />
+  [W3 Schools](https://www.w3schools.com/)<br />
 
+- The final version was pushed to homework repository at
+  [github](Homework2_ResponsivePortifolio/aafernands.github.io/).
 
-# aafernands.github.io
+## License
+
+Copyright 2020 Alex Fernandes
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.

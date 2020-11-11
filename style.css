@@ -198,6 +198,8 @@ footer {
 	text-align: center;
 	text-decoration: none;
 	margin: 0px;
+	color: white;
+
 }
 
 .fa:hover {
@@ -510,9 +512,7 @@ input[type="submit"]:hover {
 	background-color: #b43333 !important;
 }
 
-a {
-	color: #ffffff !important;
-}
+
 
 .sidenav {
 	background-color: #151515 !important;
@@ -587,5 +587,7 @@ a {
 	height: 400px;
 }
 
-.titlePortfolio {
+a {
+	color: #eee!important;
+	text-align: left;
 }
