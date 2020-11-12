@@ -78,6 +78,14 @@ font-family: 'Poppins', sans-serif;
 	background-color: #32f09100;
 }
 
+nav {
+    color: #fff;
+    background-color: #0f0e0e;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
 /*_____________________container_section_____*/
 td,
 th,
@@ -205,7 +213,7 @@ footer {
 
 .fa:hover {
 	text-decoration: none;
-	color: #b43333;
+	color: #1a237e;
 }
 
 .fa-github {
@@ -239,10 +247,11 @@ footer {
 
 /*_____________________buttons_____*/
 
+
 .btn-primary {
 	color: #fff;
-	background-color: #b43333;
-	border-color: #b43333;
+	background-color: #1a237e;
+	border-color: #1a237e;
 	border-radius: 20px;
 	font-size: 12px;
 	margin-left: 20px;
@@ -266,7 +275,7 @@ footer {
 	content: " A WEB DEVELOPER";
 	font-family: "Poppins", sans-serif;
 	text-emphasis: none;
-	color: #b43333;
+	color: #1a237e;
 	font-size: 40px;
 }
 aside {
@@ -308,7 +317,7 @@ aside {
 }
 
 .typewriter-wrap {
-	color: #b43333;
+	color: #1a237e;
 }
 
 .typewriter-line {
@@ -432,7 +441,7 @@ textarea {
 }
 
 input[type="submit"] {
-	background-color: #b43333;
+	background-color: #1a237e;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -441,7 +450,7 @@ input[type="submit"] {
 }
 
 #animation-2 {
-	color: #b43333;
+	color: #1a237e;
 	text-align: left;
 }
 
@@ -460,7 +469,7 @@ input[type="submit"]:hover {
 }
 
 input[type="submit"] {
-	background-color: #b43333;
+	background-color: #1a237e;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -493,18 +502,18 @@ input[type="submit"]:hover {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	background-color: #b43333;
+	background-color: #1a237e;
 	-webkit-transition: width 0.3s linear;
 	transition: width 0.3s linear;
 }
 
 .black {
-	background-color: #b43333 !important;
+	background-color: #1a237e; !important;
 }
 
 .sidenav {
 	background-color: #151515 !important;
-	color: rgb(148, 58, 58);
+	color: #1a237e;
 }
 
 /*  STYLE PORTIFOLIO ANIMATION */
