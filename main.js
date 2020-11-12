@@ -37,34 +37,12 @@ function init() {
 	$(document).ready(function () {
 		$(".materialbox").materialbox();
 	});
-
-
-
-
-
-
-
-	$(function () {
-		$(".projects").on("click", ".project", function () {
-			// clear active state
-			$(".project.active").removeClass("active");
-
-			// add active state
-			$(this).addClass("active");
-			$(".btn").hide();
-		});
-	});
-
-
-
-
-
-	
-	function attachEvent() {
-		// $(".btn").hide();
-		// $(".active").show();
-		// $(".titlePortfolio").show();
-	}
-	attachEvent();
 }
+
+
+
+$("projects").toggle();
+
+
+
 $(init);
