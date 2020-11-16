@@ -252,7 +252,6 @@ footer {
 	color: #fff;
 	background-color: #1a237e;
 	border-color: #1a237e;
-	border-radius: 20px;
 	font-size: 12px;
 	margin-left: 20px;
 }
@@ -615,7 +614,7 @@ input[type="submit"]:hover {
 }
 
 .item-1 {
-	background-image: url("https://source.unsplash.com/1600x900/?weather, rain, forecast");
+	background-image: url("https://source.unsplash.com/1600x900/?weather");
 
 	-webkit-transition: 0.5s;
 }
@@ -631,7 +630,7 @@ input[type="submit"]:hover {
 }
 
 .item-2 {
-	background-image: url("https://source.unsplash.com/1600x900/?security, nature");
+	background-image: url("https://source.unsplash.com/1600x900/?coding");
 	-webkit-transition: 0.5s;
 }
 .info2 {
@@ -645,7 +644,7 @@ input[type="submit"]:hover {
 }
 
 .item-3 {
-	background-image: url("https://source.unsplash.com/1600x900/?nasa, space");
+	background-image: url("https://source.unsplash.com/1600x900/?space");
 	-webkit-transition: 0.5s;
 }
 .info3 {
@@ -658,7 +657,7 @@ input[type="submit"]:hover {
 	height: 100%;
 }
 .item-4 {
-	background-image: url("https://source.unsplash.com/1600x900/?travel");
+	background-image: url("https://source.unsplash.com/1600x900/?game");
 }
 .info4 {
 	opacity: 0;
