@@ -1,8 +1,36 @@
-function init() {
+$(document).ready(function () {
 	$animation1 = $("#animation-1");
 	$animation2 = $("#animation-2");
 	$learnMoreBtn = $("#learBtn");
+	$info = $(".info");
+	$info1 = $(".info1");
+	$item1 = $(".item-1");
+	$info2 = $(".info2");
+	$item2 = $(".item-2");
+	$info3 = $(".info3");
+	$item3 = $(".item-3");
+	$info4 = $(".info4");
+	$item4 = $(".item-4");
 
+	// portifolio
+
+	$item1.on("mouseover", function () {
+		$info1.show();
+	});
+
+	$item2.on("mouseover", function () {
+		$info2.show();
+	});
+
+	$item3.on("mouseover", function () {
+		$info3.show();
+	});
+
+	$item4.on("mouseover", function () {
+		$info4.show();
+	});
+
+	// other
 	$animation1.on("animationend", () => {
 		let c = 1;
 		setTimeout(() => {
@@ -37,11 +65,4 @@ function init() {
 	$(document).ready(function () {
 		$(".materialbox").materialbox();
 	});
-}
-
-
-
-
-
-
-$(init);
+});

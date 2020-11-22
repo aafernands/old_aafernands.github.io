@@ -594,7 +594,7 @@ input[type="submit"]:hover {
 	height: 70vh;
 }
 #info {
-	opacity: 4;
+	/* opacity: 4; */
 	padding: 20px;
 }
 
@@ -604,7 +604,7 @@ input[type="submit"]:hover {
 	background-position: center;
 	background-size: cover;
 	background-repeat: none;
-	opacity: 0.5;
+	/* opacity: 0.5; */
 	/* transition: flex 0.8s ease; */
 }
 
@@ -615,59 +615,65 @@ input[type="submit"]:hover {
 
 .item-1 {
 	background-image: url("https://source.unsplash.com/1600x900/?weather");
-
 	-webkit-transition: 0.5s;
+	opacity: 0.3;
 }
+
+.item-1:hover {
+	opacity: 1;
+}
+
 
 .info1 {
-	opacity: 0;
+	/* opacity: 0; */
 	height: 100%;
 }
 
-.info1:hover {
-	opacity: 1;
-	height: 100%;
-}
 
 .item-2 {
 	background-image: url("https://source.unsplash.com/1600x900/?coding");
 	-webkit-transition: 0.5s;
+	opacity: 0.3;
 }
+
+.item-2:hover {
+	opacity: 1;
+}
+
 .info2 {
-	opacity: 0;
+	/* opacity: 0; */
 	height: 100%;
 }
 
-.info2:hover {
-	opacity: 1;
-	height: 100%;
-}
 
 .item-3 {
-	background-image: url("https://source.unsplash.com/1600x900/?space");
+	background-image: url("https://source.unsplash.com/1600x900/?notes");
 	-webkit-transition: 0.5s;
+	opacity: 0.3;
 }
+
+.item-3:hover {
+	opacity: 1;
+}
+
 .info3 {
-	opacity: 0;
+	/* opacity: 0; */
 	height: 100%;
 }
 
-.info3:hover {
-	opacity: 1;
-	height: 100%;
-}
 .item-4 {
 	background-image: url("https://source.unsplash.com/1600x900/?game");
+	opacity: 0.3;
+}
+
+.item-4:hover {
+	opacity: 1;
 }
 .info4 {
-	opacity: 0;
+	/* opacity: 0; */
 	height: 100%;
 }
 
-.info4:hover {
-	opacity: 1;
-	height: 100%;
-}
 
 /* img {
 	display: block;
