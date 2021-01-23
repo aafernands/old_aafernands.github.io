@@ -188,6 +188,7 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	overflow-y: scroll;
+	height: 100%;
 }
 
 /*_____________________footer_____*/
@@ -711,4 +712,10 @@ input[type="submit"]:hover {
 
 .white-text {
 	text-align: left;
+}
+
+.content {
+	padding: 20px;
+	min-height: 100%;
+	margin: 0 auto -50px;
 }
