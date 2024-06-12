@@ -103,8 +103,7 @@ p {
 	text-align: center;
 	size: 10px;
 }
-.h1,
-h2 {
+.h1, h2 {
 	font-weight: 50;
 	color: rgb(255, 255, 255);
 	font-family: "Poppins", sans-serif;
